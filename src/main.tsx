@@ -15,9 +15,10 @@ import { BrowserRouter } from "react-router-dom";
 // import Router from "./router";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
+  // <React.StrictMode>严格模式下组件会执行2次
+  // <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
